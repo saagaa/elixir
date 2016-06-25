@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>map example</title>
+  </head>
+  <body>
+    <map name="map1">
+      <area shape="rect" coords="0,50,250,400" onclick="alert('u selected a house')" />
+	    <area shape="poly" coords="225,100,400,250,700,250" onclick="alert('u selected a mountain')"/>
+      <area shape="rect" coords="400,250,800,400" onclick="alert('u selected a river')" />
+      <area shape="poly" coords="0,0,225,100,700,250,760,250,800,0"onclick="alert('u selected the sky')"/>
+    </map>
+    <h1 align=center> Interactive Page</h1>
+    Click on any of the parts of picture and an alert will pop uptelling you what you justt clicked. currently the program can recognise mountains, sky, house, river and land . Enjoy !
+    <img usemap="map1" width="800"alt="check your net connection" onclick="alert('u selected the land')" src="http://g02.a.alicdn.com/kf/HTB1Z0vfHVXXXXbrXXXXq6xXFXXXM/Beautiful-blue-sky-and-colorful-house-painting-oil-reproduction-city-beside-sea-natural-scenery-prints-home.jpg" alt="" />
+  </body>
+</html>
