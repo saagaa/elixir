@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My resume</title>
+  </head>
+  <style media="screen">
+    *{
+      margin:0px;
+    }
+    nav{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .nav_item{
+      background-color: white;
+      <width :80px;
+      height: 30px;>
+      font: arial;
+
+      border-right: 1px solid lightgrey;
+      text-align: center;
+      justify-content: space-around;
+      vertical-align: middle;
+      flex-basis: 80px 30px;
+      flex-grow: 1;
+      flex-shrink: 1;
+    }
+
+    .nav_item p{
+      position: relative;
+      font-weight: 550;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+    #profile_pic{
+
+      margin-top: -90px;
+
+      margin-left: 10px;
+
+      border-radius: 3px;
+
+      margin-right:10px;
+      max-height: 147px;
+      max-width:  150px;
+
+      display: inline-block;
+    }
+    #profile_pic img{
+      width:100%;
+        border: 2px solid white;
+        box-shadow: 0px 0px 1px black;
+        flex-shrink: 2;
+
+    }
+    .cover_pic{
+    }
+    .cover_pic img{
+      max-width: 100%;
+      max-height: auto;
+      min-height: 200px;
+
+    }
+    a{
+      text-decoration: none;
+
+    }
+    a:hover{
+
+      text-decoration: underline;
+    }
+    .main_page{
+
+      margin-left: 4%;
+      margin-right: 4%;
+      box-shadow: 0px 0px 25px black ;
+      background-color: lightgrey;
+    }
+    .main_element_holder{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .main_element{
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      margin-bottom : 1.5%;
+      width: 43.75%;
+
+      min-width: 180px;
+      background: white;
+
+      font-size: 14px;
+      word-wrap: normal;
+      border-radius: 3px;
+      flex-grow: 1;
+      flex-shrink: 1;
+    }
+    .date{
+      color: rgba(77, 77, 77, 0.8);
+
+    }
+    .main_element p{
+      padding: 1.5% 1.5% 1.5% 1.5%;
+    }
+    p img{
+      margin:1.5% 1.5%;
+      width : 97%;
+
+    }
+    p{
+      word-wrap: normal;
+    }
+
+
+    dd{
+      margin-left: 4%;
+    }
+    .everything {
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      margin-left: 10px;
+      background-color: white;
+      padding: 1.5% 1.5% 1.5% 1.5%;
+      border-radius: 3px;
+    }
+
+    .current{
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      margin-left: 10px;
+      background-color: white;
+      padding: 1.5% 1.5% 1.5% 1.5%;
+      border-radius: 3px;
+    }
+    .contact{
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+      margin-left: 10px;
+      background-color: white;
+      padding: 1.5% 1.5% 1.5% 1.5%;
+      border-radius: 3px;
+    }
+
+    .nav_item a{
+      text-decoration: none;
+      color:black;
+    }
+
+    .nav_item a:hover{
+      text-decoration: underline ;
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <div class="main_page">
+      <div class="cover_pic">
+        <img src="coverpic03.png" id="img_cover_pic"alt="" />
+      </div>
+
+      <nav>
+        <div id="profile_pic" class="nav_item">
+          <img src="profilepic03.jpg" alt="" />
+        </div>
+        <div id="Highlights" class="nav_item">
+          <p><a href="#about_element">Highlights</a></p>
+        </div>
+        <div id="About" class="nav_item">
+          <p><a href="#about_me">About</a></p>
+        </div>
+        <div id="Current_Engagements" class="nav_item">
+          <p><a href="#current">Current engagements</a></p>
+        </div>
+        <div id="Contact" class="nav_item">
+          <p><a href="#contact_me">Contact Me</a></p>
+        </div>
+
+
+      </nav>
+      <br><br><br>
+      <div class="main_element_holder">
+        <div class="main_element" id="about_element">
+          <p>
+            Currently studying 2<sup>nd</sup> year <a href="#">Computer Science </a> in <a href="#">BITS Pilani K.K. Birla Goa campus</a>
+            <br><br>
+            Member of <a href="#">Mensa India- Delhi Chapter</a>
+            <br><br>
+            Lives in <a href="#">Goa, India</a>
+            <br><br>
+            Born and brought up in <a href="#">New Delhi, India</a>
+            <br><br>
+            Born on <a href="#">26<sup>th</sup> Aug 1997</a>
+            <br><br>
+            Knows <a href="#">C++, </a><a href="#">C, </a><a href="#">Python, </a><a href="#">html</a>
+
+
+          </p>
+
+        </div>
+
+        <div class="main_element">
+          <p class="date">
+            Year 2015
+          </p>
+          <p>
+            Started studying  <a href="#">Computer Science </a>in <a href="#">BITS Pilani K.K. Birla Goa campus</a>
+            <br>
+            <img src="bitsgoa.jpg" alt="" />
+          </p>
+        </div>
+
+        <div class="main_element">
+          <p class="date">
+            Year 2013
+          </p>
+          <p>
+            Became a member of <a href="#">Mensa India-Delhi Chapter </a>
+
+            <br><br> Got 9.8 CGPA in 10th class.
+          </p>
+        </div>
+        <div class="main_element" id="y2009">
+          <p class="date">
+            Year 2009
+          </p>
+          <p>
+            Got All India Rank 1 in <a href="#">National Geographic- Green Earth</a>. Got an all costs included trip to USA .
+            <img src="USA_trip.jpg" alt="" />
+          </p>
+        </div>
+      </div>
+      <br>
+      <div class="everything" id="about_me">
+        <p>
+          <h4 align=center> <u>About Me</u></h4>
+          <h4><u><i>Programming Skills:</i></u></h4>
+          <ul class="">
+
+
+            <li>Fluent in: C , C++ , Python, HTML .</li>
+            <li>Top-coder rating: 1149</li>
+            <li>Generally get 5-6 questions right in Codechef Long challenge</li>
+            <li>Over 170 questions solved in codechef and over 45 solved in Project Euler</li>
+            <li>Thoroughly knows Standard Libraries of C++</li>
+          </ul>
+          <br><br>
+          <h4><u><i>Scores in Competitive Exams:</i></u></h4>
+
+
+          <ul>
+            <li>JEE(adv) rank: 5288 </li>
+            <li>JEE(main) paper-I marks :237, &nbsp;&nbsp;&nbsp; percentile :99.81</li>
+            <li>JEE(main) paper-II marks :298, &nbsp;&nbsp;&nbsp; percentile :99.96, &nbsp;&nbsp; rank: 229</li>
+            <li>Normalized JEE(main) Paper-I rank: 6670</li>
+            <li>BITSAT score:362</li>
+            <li>Got ranks in top 500 in grades 8-10 in NSTSE exam</li>
+            <li>Got ranks in top 2500 in grades 4-7 in NSTSE exam</li>
+          </ul>
+          <br><br>
+          <h4><u><i>Other Achievments:</i></u></h4>
+          <ul>
+            <li>Member of high IQ society MENSA, with an IQ belonging to 99+ percentile</li>
+            <li>Got 1st rank in the National Geographic- Green Earth Project. Rewarded with an all costs included trip to Washington D.C., United States</li>
+            <li>Got 95% marks in class 12th CBSE boards examination and 9.8 CGPA (equivalent to 9.8*9.5=93.1%) in class 10th (CBSE)</li>
+            <li>Consistently got over 90% marks in all the classes</li>
+            <li>Represented School in its 1st MUN competition. Attended over 5 such competitions and got 2nd prize in two of them
+            <li>Participated in various projects like Green Earth, Cool Roofs. Attended various seminars on global warming and waste management</li>
+          </ul>
+          <br><br>
+          <h4><u><i>Co-curriculars:</i></u></h4>
+          <ul>
+            <li>Founding Member of coding club-( code surfers) in my college</li>
+            <li>Currently involved in MOOT-court vertical in WAVES , 2016</li>
+            <li>Loves swimming, skating and simulation games </li>
+          </ul>
+        </p>
+      </div>
+      <br><br>
+      <div class="current" id="current">
+        <p>
+          <h4 align=center><u>Current Engangements</u></h4>
+          <br>
+          <li>Engaged in setting up of coding club of my college</li>
+          <li>Engaged in web development </li>
+          <li>Enaged in organising MOOT-court competition in WAVES,2016 </li>
+        </p>
+      </div>
+
+      <br>
+      <div class="contact" id="contact_me">
+        <h4 align=center><u>Contact</u></h4>
+
+        <p>
+            <dd>Write to me : anshulaggarwal987654321@gmail.com</li>
+            <dd>My facebook id: anshulaggarwal111</dd>
+            <dd>My Github id: @saagaa</dd>
+            <dd></dd>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
