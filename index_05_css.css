@@ -1,0 +1,99 @@
+
+
+.calculator {
+
+    margin:50px 50px 50px 50px ;
+    padding: 10px 10px 10px 10px;
+    width: 275px;
+    background-color: #9BD2EA;
+}
+
+#output{
+    height: 30px;
+    width: 275px;
+    overflow: hidden;
+    background-color: deepskyblue;
+}
+
+#equal{
+    height: 30px;
+    width : 65px;
+    border: 1px solid greenyellow;
+    border-radius: 3px;
+    font-size: 22px;
+    background-color: greenyellow;
+    box-shadow: 0px 5px green;
+    margin-bottom: 10px;
+    transition : all 0.2s ease;
+}
+
+
+
+
+#equal:hover{
+    background-color: #9c89f6;
+    box-shadow: 0px 5px #6b54d3;
+    border-color: #9c89f6;
+}
+
+
+#equal:active{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px indianred;
+}
+input{
+    height: 30px;
+    width : 65px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    font-size: 22px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px #78A7BC;
+    margin-bottom: 10px;
+    transition : all 0.2s ease;
+
+}
+
+
+input:hover{
+    background-color: #9c89f6;
+    box-shadow: 0px 5px #6b54d3;
+    border-color: #9c89f6;
+}
+
+input:active{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px indianred;
+    top: inherit;
+}
+
+.reset{
+    height: 25px;
+    width : 140px;
+    border: 1px solid #FF9FA8;
+    padding-left: 130px;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: #FF9FA8;
+    box-shadow: 0px 5px #FF8CA2;
+    margin-bottom: 10px;
+    transition : all 0.2s ease;
+}
+
+
+
+
+.reset:hover{
+    background-color: #FF6161;
+    box-shadow: 0px 5px #6b54d3;
+    border-color: #FF6161;
+}
+
+
+.reset:active{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px indianred;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+  <head>
+    <meta charset="utf-8">
+    <title>Title of the page</title>
+    <link rel="stylesheet" type="text/css" href="index_05_css.css">
+  </head>
+
+
+  <body>
+
+
+
+      <div class="calculator">
+
+        <div class="top">
+
+
+          <div class="output_box">
+             <p id="output"> </p>
+          </div>
+        </div>
+        <div class="buttons">
+          <input type="button" name="number" value="1" onclick="fnctn(1);" >
+          <input type="button" name="number" value="2" onclick="fnctn(2);"  >
+          <input type="button" name="number" value="3" onclick="fnctn(3);" >
+          <input type="button" name="operation" value="/" onclick="operand('/');">
+          <br>
+          <input type="button" name="number" value="4" onclick="fnctn(4);" >
+          <input type="button" name="number" value="5" onclick="fnctn(5);" >
+          <input type="button" name="number" value="6" onclick="fnctn(6);" >
+          <input type="button" name="operation" value="-" onclick="operand('-');">
+          <br>
+          <input type="button" name="number" value="7" onclick="fnctn(7);" >
+          <input type="button" name="number" value="8" onclick="fnctn(8);" >
+          <input type="button" name="number" value="9" onclick="fnctn(9);" >
+          <input type="button" name="operation" value="+" onclick="operand('+');">
+          <br>
+          <input type="button" name="number" value="0" onclick="fnctn(0);" >
+            <input type="button" name="number" value="." onclick="fnctn('.');" >
+            <input type="button" name="operation" value="X" onclick="operand('*');">
+            <input type="button" name="operation" id="equal" value="=" onclick="operand('=');">
+          <br>
+          <div class="reset" onclick="reset()"> C </div>
+        </div>
+      </div>
+
+    <script src="index_05.js"></script>
+  </body>
+</html>
