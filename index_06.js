@@ -37,12 +37,18 @@ add_todo = function () {
     localStorage.setItem("todo",JSON.stringify(todos));}
 
 delete_all =function(){
-    for(todo of todos){
+
+    var j=0;
+    while(j<todos.length){
+        var todo=todos[j];
         console.log("hmm");
         if(todo.available==false)
         {
             todos.splice(todos.indexOf(todo),1);
             console.log("erasing "+ todo);
+        }
+        else{
+            j++;
         }
     }
     document.getElementById("todo").innerHTML="";
